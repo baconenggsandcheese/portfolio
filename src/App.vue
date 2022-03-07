@@ -1,30 +1,63 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="appmain">
+    <logo> </logo>
+    <div id="navbar">
+      <router-link to="/" id="home">
+        <img
+          id="home"
+          src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-portfolio-creativity-flaticons-lineal-color-flat-icons.png"
+        />
+      </router-link>
+      <router-link to="/merch">
+        <img
+          id="merch"
+          src="https://img.icons8.com/external-tone-royyan-wijaya/64/000000/external-cart-ecommerce-bram-bram-tone-royyan-wijaya-3.png"
+        />
+      </router-link>
+      <router-link to="/about" id="about">About</router-link>
+    </div>
+    <hr />
+    <router-view />
   </div>
-  <router-view />
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+<script></script>
+
+<style type="scss">
+/* Restting CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+/*Styles which are gonna be same for the whole project*/
+html {
+  /* background-color: #ffefe0; */
+  background-image: url("./assets/background.png");
+  overflow-x: hidden;
+  overflow-y: hidden;
+  filter: contrast(105%);
+}
+/* Styles for the links */
+a {
+  text-decoration: none;
+}
+#navbar{
   text-align: center;
-  color: #2c3e50;
 }
-
-#nav {
-  padding: 30px;
+#home{
+  height: 30px;
+  margin-right: 10px;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+#merch
+{
+  height: 30px;
+  margin-right: 10px;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+#about{
+  font-family: 'Cartograph CF';
+  font-size: 30px;
 }
 </style>
