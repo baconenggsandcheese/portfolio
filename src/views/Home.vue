@@ -38,11 +38,6 @@ export default {
 </script>
 
 <style type="scss" scoped>
-:root {
-  --color-1: #ed644c;
-  --color-2: #ed8c79;
-  --color-3: #f6bf85;
-}
 
 body {
   overflow: hidden;
@@ -66,7 +61,7 @@ body {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y proximity; /*Enable Scroll Snap*/
+  scroll-snap-type: y mandatory; /*Enable Scroll Snap*/
 }
 
 .c-section {
@@ -78,15 +73,17 @@ body {
   scroll-snap-align: center;
 }
 .c-section--1 {
-  /* Add styles as needed */
+  background-color: black;
 }
 .c-section--2 {
   /* background-color: var(--color-2);
   color: var(--color-2); */
+  background-color: red;
 }
 .c-section--3 {
   /* background-color: var(--color-3);
   color: var(--color-3); */
+  background-color: blue;
 }
 
 .c-section--title {

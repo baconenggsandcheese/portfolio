@@ -3,7 +3,5 @@
 </template>
 
 <style scoped>
-hr {
-  opacity: 10%;
-}
+
 </style>

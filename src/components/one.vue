@@ -1,14 +1,15 @@
 <template>
+<main>
   <div class="portfolio">
-    <div>Portfolio</div>
+    Portfolio
   </div>
+</main>
 </template>
 
 <script>
-export default {};
 </script>
 
-<style>
+<style scoped>
 .portfolio {
   display: grid;
   justify-content: center;
@@ -16,7 +17,5 @@ export default {};
   width: 100vw;
   height: 100vh;
   font-family: "A Love of Thunder";
-  /* font-size: 5em; */
-  color: #ed644c;
 }
 </style>

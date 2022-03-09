@@ -35,10 +35,9 @@
 /*Styles which are gonna be same for the whole project*/
 html {
   /* background-color: #ffefe0; */
-  background-image: url("./assets/background.png");
+  /* background-image: url("./assets/background.png"); */
   overflow-x: hidden;
   overflow-y: hidden;
-  filter: contrast(105%);
 }
 /* Styles for the links */
 a {
@@ -46,6 +45,7 @@ a {
 }
 #navbar{
   text-align: center;
+  background-color: pink;
 }
 #home{
   height: 30px;

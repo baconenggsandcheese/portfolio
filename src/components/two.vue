@@ -1,11 +1,9 @@
 <template>
-  <h1>Page two</h1>
+  <div class="">Page two</div>
 </template>
 
 <script>
-export default {
 
-}
 </script>
 
 <style>
