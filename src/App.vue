@@ -14,7 +14,6 @@
           src="https://img.icons8.com/external-tone-royyan-wijaya/64/000000/external-cart-ecommerce-bram-bram-tone-royyan-wijaya-3.png"
         />
       </router-link>
-      <router-link to="/about" id="about">About</router-link>
     </div>
     <hr />
     <router-view />
@@ -43,21 +42,20 @@ html {
 a {
   text-decoration: none;
 }
-#navbar{
+#navbar {
   text-align: center;
-  background-color: pink;
+  background-color: whitesmoke;
 }
-#home{
+#home {
   height: 30px;
   margin-right: 10px;
 }
-#merch
-{
+#merch {
   height: 30px;
   margin-right: 10px;
 }
-#about{
-  font-family: 'Cartograph CF';
+#about {
+  font-family: "Cartograph CF";
   font-size: 30px;
 }
 </style>

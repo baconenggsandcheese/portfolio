@@ -1,21 +1,54 @@
 <template>
-<main>
-  <div class="portfolio">
-    Portfolio
-  </div>
-</main>
+<div class="onemain">
+    <div class="three">
+      <div class="portfolio">
+        Portfolio
+      </div>
+      <yeardate>
+        2021
+      </yeardate>
+      <cv>
+        Curriculum Vitae
+      </cv>
+    </div>
+    <br/>
+    <ar>Use the ↓ key to navigate</ar>
+</div>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style scoped>
+.three {
+  text-align: center;
+}
 .portfolio {
-  display: grid;
+  padding-top: 250px;
+  font-family: 'A Love of Thunder';
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
-  font-family: "A Love of Thunder";
+  color: #e9634a;
+  font-size: 6rem;
+}
+
+yeardate {
+  color: #e9634a;
+  float: left;
+  margin-left: 32rem;
+  font-family: 'Cartograph CF';
+}
+
+cv {
+  color: #e9634a;
+  float: right;
+  margin-right: 30rem;
+  font-family: 'Cartograph CF';
+}
+
+ar {
+  color: #e9634a;
+  margin-left: 39rem;
+  font-family: 'Cartograph CF';
 }
 </style>
