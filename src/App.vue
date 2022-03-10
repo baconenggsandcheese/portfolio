@@ -1,7 +1,7 @@
 <template>
   <div class="appmain">
     <logo> </logo>
-    <div id="navbar">
+    <!-- <div id="navbar">
       <router-link to="/" id="home">
         <img
           id="home"
@@ -14,7 +14,7 @@
           src="https://img.icons8.com/external-tone-royyan-wijaya/64/000000/external-cart-ecommerce-bram-bram-tone-royyan-wijaya-3.png"
         />
       </router-link>
-    </div>
+    </div> -->
     <hr />
     <router-view />
   </div>
@@ -44,7 +44,8 @@ a {
 }
 #navbar {
   text-align: center;
-  background-color: whitesmoke;
+  background-color: #ffefe0;
+  /* background-color: rgba(255,255,255,0.5); */
 }
 #home {
   height: 30px;

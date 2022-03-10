@@ -2,17 +2,17 @@
 <div class="onemain">
     <div class="three">
       <div class="portfolio">
-        Portfolio
+        Aninda Deb
       </div>
-      <yeardate>
+      <div class="yeardate">
         2021
-      </yeardate>
-      <cv>
+      </div>
+      <div class="cv">
         Curriculum Vitae
-      </cv>
+      </div>
     </div>
     <br/>
-    <ar>Use the ↓ key to navigate</ar>
+    <div class="ar" >Use the ↓ key to navigate</div>
 </div>
 </template>
 
@@ -32,21 +32,21 @@
   font-size: 6rem;
 }
 
-yeardate {
+.yeardate {
   color: #e9634a;
   float: left;
-  margin-left: 32rem;
+  margin-left: 30rem;
   font-family: 'Cartograph CF';
 }
 
-cv {
+.cv {
   color: #e9634a;
   float: right;
   margin-right: 30rem;
   font-family: 'Cartograph CF';
 }
 
-ar {
+.ar {
   color: #e9634a;
   margin-left: 39rem;
   font-family: 'Cartograph CF';

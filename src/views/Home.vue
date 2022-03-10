@@ -36,7 +36,7 @@
       </div>
     </section>
     <section>
-      <div class="c-section c-section--5">
+      <div class="c-section c-section--6">
         <p class="c-section--title">
           <six />
         </p>
@@ -103,7 +103,7 @@ body {
   overflow: hidden; /*To hide text overflow */
 }
 .c-section--3 {
-  background-color: red;
+  background-color: #ffefe0;
 }
 .c-section--4 {
   background-color: green;
@@ -113,6 +113,9 @@ body {
 }
 .c-section--5 {
   background-color: blueviolet;
+}
+.c-section--6 {
+  background-color: blue;
 }
 /* Major styles for the heading */
 .c-section--title {
