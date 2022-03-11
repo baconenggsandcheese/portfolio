@@ -1,9 +1,7 @@
 <template>
-  <h1> PAGE SIX BOI </h1>
+  <h1>PAGE SIX BOI</h1>
 </template>
 
-<script>
-</script>
+<script></script>
 
-<style>
-</style>
+<style></style>

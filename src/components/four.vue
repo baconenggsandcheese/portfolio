@@ -1,14 +1,13 @@
 <template>
-<div class="main">
+  <div class="main">
     <h1>Projects & Achievements</h1>
-</div>
+  </div>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style>
 .main {
-    color: black;
+  color: black;
 }
 </style>
