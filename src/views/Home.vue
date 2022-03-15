@@ -42,6 +42,34 @@
         </p>
       </div>
     </section>
+    <section>
+      <div class="c-section c-section--7">
+        <p class="c-section--title">
+          <seven />
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="c-section c-section--8">
+        <p class="c-section--title">
+          <eight />
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="c-section c-section--9">
+        <p class="c-section--title">
+          <nine />
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="c-section c-section--10">
+        <p class="c-section--title">
+          <ten />
+        </p>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -52,6 +80,10 @@ import three from "@/components/three.vue";
 import four from "@/components/four.vue";
 import five from "@/components/five.vue";
 import six from "@/components/six.vue";
+import seven from "@/components/seven.vue";
+import eight from "@/components/eight.vue";
+import nine from "@/components/nine.vue";
+import ten from "@/components/ten.vue";
 export default {
   components: {
     one,
@@ -60,6 +92,10 @@ export default {
     four,
     five,
     six,
+    seven,
+    eight,
+    nine,
+    ten,
   },
 };
 </script>
@@ -95,27 +131,37 @@ body {
   height: 100vh;
   scroll-snap-align: center;
 }
-.c-section--1 {
-  background-color: #ffefe0;
+.c-section--1 {  /*EntryPage*/
+  background-color: #faf4d2;
 }
-.c-section--2 {
-  background-color: #ffefe0;
+.c-section--2 { /* Intro */
+  background-color: #faf4d2;
   overflow: hidden; /*To hide text overflow */
 }
-.c-section--3 {
-  background-color: #ffefe0;
+.c-section--3 { /*Skill header*/
+  background-color: #faf4d2;
 }
-.c-section--4 {
-  background-color: green;
+.c-section--4 { /*Skills page*/
+  background-color: #faf4d2;
+  overflow: hidden;
 }
-.c-section--5 {
-  background-color: yellow;
-}
-.c-section--5 {
-  background-color: blueviolet;
+.c-section--5 { /*Experience Page*/
+  background-color: #faf4d2;
 }
 .c-section--6 {
-  background-color: blue;
+  background-color: #faf4d2;
+}
+.c-section--7 {
+  background-color: #faf4d2;
+}
+.c-section--8 {
+  background-color: red;
+}
+.c-section--9 {
+  background-color: green;
+}
+.c-section--10 {
+  background-color: yellow;
 }
 /* Major styles for the heading */
 .c-section--title {

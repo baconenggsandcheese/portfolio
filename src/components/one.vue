@@ -1,12 +1,12 @@
 <template>
   <div class="onemain">
     <div class="three">
-      <div class="portfolio">Aninda Deb</div>
-      <div class="yeardate">2021</div>
-      <div class="cv">Curriculum Vitae</div>
+      <div id="portfolio" class="animate pop">Aninda Deb</div>
+      <div id="yeardate" class="animate pop delay-3">2021</div>
+      <div id="cv" class="animate pop delay-2">Curriculum Vitae</div>
     </div>
     <br />
-    <div class="ar">Use the ↓ key/scroll to navigate</div>
+    <div id="ar" class="animate pop delay-4">Use the ↓ key/scroll to navigate</div>
   </div>
 </template>
 
@@ -16,31 +16,31 @@
 .three {
   text-align: center;
 }
-.portfolio {
+#portfolio {
   padding-top: 250px;
   font-family: "A Love of Thunder";
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #e9634a;
+  color: #ff4433;
   font-size: 6rem;
 }
 
-.yeardate {
+#yeardate {
   color: #e9634a;
   float: left;
   margin-left: 30rem;
   font-family: "Cartograph CF";
 }
 
-.cv {
+#cv {
   color: #e9634a;
   float: right;
   margin-right: 30rem;
   font-family: "Cartograph CF";
 }
 
-.ar {
+#ar {
   color: #e9634a;
   margin-left: 35rem;
   margin-right: 5rem;

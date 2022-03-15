@@ -1,13 +1,13 @@
 <template>
-  <div class="fivemain">
-    Experience
+  <div class="sevenmain">
+    Projects
   </div>
 </template>
 
 <script></script>
 
 <style scoped>
-.fivemain {
+.sevenmain {
   display:flex;
   justify-content: center;
   align-items: center;
