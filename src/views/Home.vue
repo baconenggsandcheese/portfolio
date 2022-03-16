@@ -131,21 +131,26 @@ body {
   height: 100vh;
   scroll-snap-align: center;
 }
-.c-section--1 {  /*EntryPage*/
+.c-section--1 {
+  /*EntryPage*/
   background-color: #faf4d2;
 }
-.c-section--2 { /* Intro */
+.c-section--2 {
+  /* Intro */
   background-color: #faf4d2;
   overflow: hidden; /*To hide text overflow */
 }
-.c-section--3 { /*Skill header*/
+.c-section--3 {
+  /*Skill header*/
   background-color: #faf4d2;
 }
-.c-section--4 { /*Skills page*/
+.c-section--4 {
+  /*Skills page*/
   background-color: #faf4d2;
   overflow: hidden;
 }
-.c-section--5 { /*Experience Page*/
+.c-section--5 {
+  /*Experience Page*/
   background-color: #faf4d2;
 }
 .c-section--6 {

@@ -1,14 +1,12 @@
 <template>
-  <div class="threemain">
-    Skills
-  </div>
+  <div class="threemain">Skills</div>
 </template>
 
 <script></script>
 
 <style scoped>
 .threemain {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 250px;

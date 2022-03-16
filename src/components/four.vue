@@ -1,18 +1,33 @@
 <template>
-<div class="fourmain">
-  <div class="top1">Languages & Frameworks that I code in:</div>
-  <br />
-  <br />
-  <div class="logos">
-    <img src="@/assets/vuelogo.png">
-    <img src="@/assets/reactlogo.png"/>
-    <img src="@/assets/pythonlogo.png"/>
-    <img src="@/assets/cpluspluslogo.png"/>
-    <img src="@/assets/nodejslogo.png"/>
-    <img src="@/assets/js.png"/>
+  <div class="fourmain">
+    <br />
+    <br />
+    <div class="logos">
+      <div class="vue">
+        <img src="@/assets/vuelogo.png" />
+        VueJs
+        <div class="info">
+          <i>(The same thing this website was made with)</i>
+        </div>
+      </div>
+      <div class="react">
+        <img src="@/assets/reactlogo.png" />
+        React
+      </div>
+      <div class="python">
+        <img src="@/assets/pythonlogo.png" />
+        Python
+      </div>
+      <div class="cpp">
+        <img class="c" src="@/assets/cpluspluslogo.png" />
+        C++
+      </div>
+      <div class="tss">
+        <img class="ts" src="@/assets/tslogo.png" />
+        TypeScript
+      </div>
+    </div>
   </div>
-  
-</div>
 </template>
 
 <script></script>
@@ -21,14 +36,18 @@
 .fourmain {
   margin-left: 20px;
 }
-.top1{
-  font-size: 50px;
-  text-align: center;
-  font-family: "Cartograph CF";
+img {
+  height: 1em;
 }
-img{
-  margin-top: 100px;
-  height: 100px;
-  margin-left: 250px;
+.logos {
+  font-size: 55px;
+  font-family: "Cartograph CF";
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  row-gap: 1.2em;
+}
+.info {
+  font-size: 20px;
 }
 </style>

@@ -66,16 +66,19 @@ a {
   animation-delay: 0.75s;
   animation-fill-mode: backwards;
 }
-    
-@keyframes animate-fade {
-    0% { opacity: 0; }
-  100% { opacity: 1; }
-}
 
+@keyframes animate-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .animate.pop {
   animation-name: animate-pop;
-  animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
 }
 
 @keyframes animate-pop {
@@ -83,22 +86,21 @@ a {
     opacity: 0;
     transform: scale(0.5, 0.5);
   }
-        
+
   100% {
     opacity: 1;
     transform: scale(1, 1);
   }
 }
 
-
 .delay-1 {
   animation-delay: 0.66s;
 }
-    
+
 .delay-2 {
   animation-delay: 0.77s;
 }
-    
+
 .delay-3 {
   animation-delay: 0.88s;
 }

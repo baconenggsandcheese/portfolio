@@ -1,14 +1,12 @@
 <template>
-  <div class="fivemain">
-    Experience
-  </div>
+  <div class="fivemain">Experience</div>
 </template>
 
 <script></script>
 
 <style scoped>
 .fivemain {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 250px;

@@ -10,20 +10,29 @@
     <div class="role">FrontEnd / FullStack Developer</div>
     <br />
     <div class="intro">
-      <i>Hi! I'm Aninda I like creating lean and clean websites which are both easy
-      and fast to use.
-      <br />
-      I optimise for both aesthetics and performance.
-      <br />
-      <br />
-      Something which results in a really good looking site that is easy and
-      good to use.
-      <br />
-      I am The interest of doing something different drove me to an idea of working in the field of computer science engineering and I came up with an idea for an open-source AI library which can be used for NPCS which then could be implemented in different games. It would significantly help Indie game developers or anyone who wants to develop their own game. It took me almost a year to figure out ‘how will it happen’. A lot of work needs to be done as current AI libraries for advanced AIs are getting patented which results in a problem of implementing already available good methods.
+      <i
+        >Hi! I'm Aninda I like creating lean and clean websites which are both
+        easy and fast to use.
+        <br />
+        I optimise for both aesthetics and performance.
+        <br />
+        <br />
+        Something which results in a really good looking site that is easy and
+        good to use.
+        <br />
+        I am The interest of doing something different drove me to an idea of
+        working in the field of computer science engineering and I came up with
+        an idea for an open-source AI library which can be used for NPCS which
+        then could be implemented in different games. It would significantly
+        help Indie game developers or anyone who wants to develop their own
+        game. It took me almost a year to figure out ‘how will it happen’. A lot
+        of work needs to be done as current AI libraries for advanced AIs are
+        getting patented which results in a problem of implementing already
+        available good methods.
       </i>
     </div>
     <br />
-    
+
     <div class="below">
       <div class="location">
         <img
@@ -52,8 +61,8 @@
       <!-- //todo fix logo text alignment -->
       <!-- //todo add Cover letter and move skills to another section -->
     </div>
-    <br/>
-    <br/>
+    <br />
+    <br />
     <div class="someinfo">
       *Some of the fonts may not work if you're running it on your machine.
       Therefore please install Cartograph CF*
@@ -104,7 +113,7 @@
   margin-top: 4px;
   height: 20px;
 }
-.someinfo{
+.someinfo {
   margin-left: 20rem;
   font-family: "Cartograph CF";
 }

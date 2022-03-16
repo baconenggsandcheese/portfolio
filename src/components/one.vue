@@ -6,7 +6,9 @@
       <div id="cv" class="animate pop delay-2">Curriculum Vitae</div>
     </div>
     <br />
-    <div id="ar" class="animate pop delay-4">Use the ↓ key/scroll to navigate</div>
+    <div id="ar" class="animate pop delay-4">
+      Use the ↓ key/scroll to navigate
+    </div>
   </div>
 </template>
 
