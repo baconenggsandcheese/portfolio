@@ -86,7 +86,7 @@
   margin-left: 20px;
   font-family: "Cartograph CF";
   font-size: 2rem;
-  color: #ea644b;
+  color: #ff4433;
 }
 .intro {
   margin-left: 20px;

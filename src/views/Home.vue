@@ -160,7 +160,7 @@ body {
   background-color: #faf4d2;
 }
 .c-section--8 {
-  background-color: red;
+  background-color: #faf4d2;
 }
 .c-section--9 {
   background-color: green;

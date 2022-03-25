@@ -1,5 +1,5 @@
 <template>
-  <div class="fivemain">Experience</div>
+  <div class="fivemain">Projects</div>
 </template>
 
 <script></script>
